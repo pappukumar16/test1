@@ -1,0 +1,45 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	box-sizing: border-box;
+	height: 100%;
+	width: 100%;
+	background: #212111;
+	
+}
+
+.container{
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	row-gap: 2rem;
+}
+
+.button-container{
+	display: flex;
+    gap:1rem;
+}
+
+.btn{
+	padding: 1rem 2rem;
+	font-size: 1.2rem;
+	letter-spacing: 1.2px;
+	border: none;
+	border: 1.2px solid  blue;
+	border-radius: 1rem;
+
+}
+
+#value{
+	font-size: 3rem;
+}
+
+img{
+	overflow: hidden;
+}

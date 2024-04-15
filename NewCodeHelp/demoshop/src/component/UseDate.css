@@ -1,0 +1,12 @@
+.para{
+    font-size:2vw;
+    background:#2343;
+    padding:1.2rem;
+    border:1px solid blue;
+    box-shadow:0 0 3px;
+}
+
+span{
+    margin:3px;
+    
+}

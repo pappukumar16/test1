@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>create layout with grid</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		.contenar{
+			display: grid;
+			height: 600px;
+			background: oldlace;
+            border:2px solid green;
+
+            grid-template-columns:150px 1fr 1fr 150px;
+            grid-template-rows: 30px 1fr  30px;
+			gap:3px;
+		}
+        .box{
+        	
+        	background: aqua;
+            border:4px solid green;
+        }
+        #box1,#box4{
+        	grid-column-start: 1;
+        	grid-column-end: 5;
+
+        }
+        #box3{
+        	grid-column-start: 2;
+        	grid-column-end: 4;
+        }
+       
+	</style>
+</head>
+<body>
+	<div class="contenar">
+		<div class="box" id="box1">Header</div>
+		<div class="box" id="box2">main</div>
+		<div class="box" id="box3">Content</div>
+		<div class="box" id="box5">add</div>
+
+		<div class="box" id="box4">Footer</div>
+	</div>
+</body>
+</html>
